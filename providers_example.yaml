@@ -1,0 +1,22 @@
+# Claude API 服务商评测配置文件
+#
+# 使用方法:
+#   1. 复制本文件为 providers.yaml
+#   2. 填入各服务商的名称、API 地址和密钥
+#   3. 运行: python main.py batch --config providers.yaml
+#
+# 注意: providers.yaml 已被 .gitignore 忽略, 不会被提交到版本控制
+
+providers:
+  - name: "服务商A"
+    url: "https://api.example-provider.com"
+    key: "sk-your-api-key-here"
+
+  - name: "服务商B"
+    url: "https://openrouter.ai/api"
+    key: "sk-or-v1-your-openrouter-key-here"
+
+  # 更多服务商...
+  - name: "服务商C"
+    url: "https://another-provider.com"
+    key: "sk-another-key-here"
