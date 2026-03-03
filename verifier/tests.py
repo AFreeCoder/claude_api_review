@@ -487,6 +487,7 @@ def test_message_structure(client: APIClient) -> TestResult:
     VALID_MSG_PREFIXES = {
         "msg_bdrk_": "AWS Bedrock",
         "msg_vrtx_": "Google Vertex AI",
+        "req_vrtx_": "Google Vertex AI",
         "msg_": "Anthropic 直连",
         "gen-": "OpenRouter 聚合",
     }
